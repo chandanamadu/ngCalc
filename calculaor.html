@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>My Calculator</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+	</head>
+	
+	<body ng-app="" ng-controller="contrllr">
+		
+	<div class= "CalBody">
+	
+		<div class="disply">
+			
+			<p name="currentAns">{{ans1}}  {{oppet}}  {{ans2}}</p>
+			<p>   {{final}}</p>
+			
+		</div>
+	
+		<div class="CalrBody"  >
+			
+			<div class = "buttons">
+				<br>
+			 <button type='button'  class='numButton' ng-click='numberString(7)'>7</button>
+			 <button type='button'  class='numButton' ng-click='numberString(8)'>8</button>
+			 <button type='button'  class='numButton' ng-click='numberString(9)'>9</button>
+			 <button type="button"  class="oppButton" ng-click='operator(10)'>*</button><br><br>
+			  
+			 <button type="button"  class="numButton" ng-click='numberString(4)'>4</button>
+			 <button type="button"  class="numButton" ng-click='numberString(5)'>5</button>
+			 <button type="button"  class="numButton" ng-click='numberString(6)'>6</button>
+			 <button type="button" class="oppButton" ng-click='operator(11)'>/</button><br><br>
+			 
+			 <button type="button"  class="numButton" ng-click='numberString(1)'>1</button>
+			 <button type="button"  class="numButton" ng-click='numberString(2)'>2</button>
+			 <button type="button"  class="numButton" ng-click='numberString(3)'>3</button>
+			 <button type="button" class="oppButton" ng-click='operator(12)'>-</button><br><br>
+			 
+			 <button type="button"  class="numButton" ng-click='numberString(0)'>0</button>
+			 <button type="button" class='reset' ng-click='clearAll()'>C</button>
+			 <button type="button" class='getAnswer' ng-click='getFinal()'>=</button>
+			 <button type="button" class="oppButton" ng-click='operator(13)'>+</button>
+			 
+			 
+		</div>
+		
+	</div>
+	
+	 <script src="myApp.js"></script>
+	 
+	 </body>
+
+</html>

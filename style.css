@@ -1,0 +1,50 @@
+
+.numButton{
+	width:100px;
+	height:60px;
+    background-color:yellow;
+    color:black;
+    font-size:25px;
+}
+.oppButton{
+	width:100px;
+	height:60px;
+    background-color:red;
+    color:black;
+    font-size:35px;
+}
+
+.getAnswer{
+	width:130px;
+	height:60px;
+    background-color:green;
+    color:black;
+    font-size:35px;
+}
+
+.reset{
+	width:70px;
+	height:60px;
+    background-color:white;
+    color:black;
+    font-size:35px;
+}
+
+.disply{
+	width:400px;
+	height:100px;
+	background:white;
+    color:black;
+    padding:0 10px;
+    text-align:align;
+    font-size:25px;
+}
+
+.CalBody {
+    background:#306;
+    width:450px;
+    height:460px;
+    padding:10px;
+    box-shadow: 30px 10px 10px #888888;
+    border-radius:15px;
+}
