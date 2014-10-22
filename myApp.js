@@ -1,4 +1,3 @@
-
 function contrllr($scope){
 	$scope.op1="0";
 	$scope.ans1=null;
@@ -86,5 +85,3 @@ function contrllr($scope){
 	
 	
 }
-
-
